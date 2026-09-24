@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ACID Study Guide//Review//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:20260925T100000Z
+DTEND:20260925T103000Z
+DTSTAMP:20260924T000000Z
+UID:acid-review-20260925@study-guide
+DTMODIFIED:20260924T000000Z
+SUMMARY:Review ACID Properties Study Guide
+DESCRIPTION:Review the ACID properties study guide at https://github.com/abhinavpadige4/acid-properties-study-guide\n\nAgenda:\n1. Re-read the summary table (5 min)\n2. Walk through each property's example (15 min)\n3. Answer the interview questions in summary-table.md (10 min)
+LOCATION:Online
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Review ACID Properties in 10 minutes
+END:VALARM
+END:VEVENT
+END:VCALENDAR
